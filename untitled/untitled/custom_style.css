@@ -1,0 +1,60 @@
+
+.main_container {
+    width: 1000px;
+    margin: auto;
+    background: yellow;
+}
+
+.header__wrapper{
+    display: flex;
+}
+
+.header__wrapper_logo {
+    margin: 10px;
+}
+
+.header__wrapper_title_wrapper {
+    width: 100%;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.logo_img {
+    width: auto;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.section {
+    background: rgba(0, 102, 255, 0.4);
+}
+
+.section__wrapper{
+    display: flex;
+}
+
+.section__wrapper_search{
+    margin: 10px;
+}
+
+.section__wrapper_card_wrap {
+    border: 1px red solid;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.card {
+    margin: 10px;
+}
+
+footer {
+    background: palevioletred;
+}
